@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Production Build
+dist/
+dist-ssr/
+*.local
+
+# Vite / Cache
+.vite/
+.eslintcache
+
+# Environment Variables
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor (VS Code / JetBrains)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

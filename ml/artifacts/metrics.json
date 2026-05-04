@@ -1,0 +1,92 @@
+{
+  "models": [
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9869,
+      "precision": 0.9871,
+      "recall": 0.9869,
+      "f1_score": 0.987
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9372,
+      "precision": 0.9377,
+      "recall": 0.9372,
+      "f1_score": 0.9373
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.8703,
+      "precision": 0.8707,
+      "recall": 0.8703,
+      "f1_score": 0.8702
+    },
+    {
+      "model": "SVM",
+      "accuracy": 0.8272,
+      "precision": 0.8272,
+      "recall": 0.8272,
+      "f1_score": 0.8263
+    }
+  ],
+  "best_model": "XGBoost",
+  "crops": [
+    {
+      "key": "rice",
+      "name": "Rice"
+    },
+    {
+      "key": "maize",
+      "name": "Maize"
+    },
+    {
+      "key": "chickpea",
+      "name": "Chickpea"
+    },
+    {
+      "key": "kidneybeans",
+      "name": "Kidney Beans"
+    },
+    {
+      "key": "pigeonpeas",
+      "name": "Pigeon Peas"
+    },
+    {
+      "key": "mothbeans",
+      "name": "Moth Beans"
+    },
+    {
+      "key": "mungbean",
+      "name": "Mung Bean"
+    },
+    {
+      "key": "blackgram",
+      "name": "Black Gram"
+    },
+    {
+      "key": "lentil",
+      "name": "Lentil"
+    },
+    {
+      "key": "pomegranate",
+      "name": "Pomegranate"
+    },
+    {
+      "key": "banana",
+      "name": "Banana"
+    },
+    {
+      "key": "mango",
+      "name": "Mango"
+    }
+  ],
+  "features": [
+    "N",
+    "P",
+    "K",
+    "temperature",
+    "humidity",
+    "ph",
+    "rainfall"
+  ]
+}
